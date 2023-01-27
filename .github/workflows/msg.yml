@@ -1,0 +1,10 @@
+name: Welcome message Workflow
+
+on: [push]
+
+jobs:
+  job1-Message-Display:
+    runs-on: ubuntu-latest
+    steps:
+     - run: echo "Welcome to CICD"
+
