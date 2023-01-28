@@ -1,4 +1,4 @@
-name: Welcome message Workflow
+name: Welcome message workflow
 
 on: [push]
 
