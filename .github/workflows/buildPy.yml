@@ -1,9 +1,9 @@
-name: Welcome message workflow
+name: Welcome message Workflow
 
 on: [push]
 
 jobs:
-   job1-message-Display:
+   job1-Clone-Project:
      runs-on: ubuntu-latest
      steps:
         - name: Checking out Current Repository
