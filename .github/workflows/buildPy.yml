@@ -3,7 +3,7 @@ name: Welcome message Workflow
 on: [push]
 
 jobs:
-   job1-Clone-Project:
+   Job1-Clone-Project:
      runs-on: ubuntu-latest
      steps:
         - name: Checking out Current Repository
@@ -14,6 +14,6 @@ jobs:
           with:
              python-version: '3.10'
 
-        -run: python BuildingProject.py   
+        - run: python BuildingProject.py   
 
-        -run: ls                                  
+        - run: ls                                  
